@@ -11,7 +11,12 @@ export function useLanguage() {
       case 'en-US':
         setLocale('en-US')
         return enUS
-
+      case 'zh-CN':
+        setLocale('zh-CN')
+        return zhCN
+      case 'zh-TW':
+        setLocale('zh-TW')
+        return zhTW
       default:
         setLocale('en-US')
         return enUS
