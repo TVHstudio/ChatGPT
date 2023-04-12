@@ -11,7 +11,7 @@ export function useLanguage() {
       case 'en-US':
         setLocale('en-US')
         return enUS
-      case 'ko-KR':
+      case 'vi-VN':
         setLocale('vi-VN')
         return viVN
       case 'ko-KR':
